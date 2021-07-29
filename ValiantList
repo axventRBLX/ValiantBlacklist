@@ -1,7 +1,0 @@
-function announce(title,text,time)
-    game.StarterGui:SetCore("SendNotification", {
-        Title = title;
-        Text = text;
-        Duration = time;
-    })
-end
